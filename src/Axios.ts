@@ -1,7 +1,7 @@
 import { AxiosRequestConfig, AxiosResponse } from "./types";
 import qs from "qs";
 import parseHeaders from "parse-headers";
-import InterceptorManager, { Interceptor } from "./InterceptorManager";
+import InterceptorManager from "./InterceptorManager";
 
 let defaults: AxiosRequestConfig = {
   method: "get",

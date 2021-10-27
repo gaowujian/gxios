@@ -1,5 +1,3 @@
-import { AxiosRequestConfig } from "./types";
-
 // 每一个拦截器对象都接收两个回调，成功和失败
 interface OnFulfilled<V> {
   (val: V): V | Promise<V> | PromiseLike<V>;
